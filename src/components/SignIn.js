@@ -16,7 +16,7 @@ export default function User() {
     history.push("/Home");
     if (username.trim() === "" || password.trim() === "") {
       alert("Please enter both username and password");
-      return; 
+      return;
     }
   };
 
